@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14337B;
+  padding: 22px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: top 0.3s;
+  text-decoration: none;
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+}
+
+.navbar-menu li {
+  margin-left: 1.5rem;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar-menu a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 90px; 
+}
+
+.content {
+  padding: 2rem;
+}
+
+footer {
+  background-color: #14337B;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ddd;
+}
+
+#topButton {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 60px;
+  background-color: WHITE;
+  color: BLACK;
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  text-align: center; 
+  line-height: 55px; 
+  transition: background-color 0.3s, transform 0.3s;
+  z-index: 1000;
+}
+
+#topButton:hover {
+  background-color: #F0BB51;
+}
+
+#topButton i {
+  font-size: 1.5rem;
+}
