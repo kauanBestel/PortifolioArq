@@ -1,0 +1,14 @@
+@import url("styles/carrousel.css");
+@import url("styles/navbar.css");
+
+:root {
+    --cor-primaria: #fff;
+    --cor-secundaria: #447396;
+    --fonte-tx: "Montserrat";
+    --fonte-tt: "Krona One";
+    --roxo-teste: #401F71;
+}
+
+body {
+    background: var(--roxo-teste);
+}
