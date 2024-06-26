@@ -1,5 +1,7 @@
 @import url("styles/carrousel.css");
 @import url("styles/navbar.css");
+@import url("styles/footer.css");
+
 
 :root {
     --cor-primaria: #fff;

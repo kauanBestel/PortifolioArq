@@ -8,15 +8,34 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="footer-and-navbar/styles.css">
+    <link rel="stylesheet" href="scripts/script.js">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
 </head>
 
+
 <body>
     <header>
+    
+        <nav class="navbar" id="navbar">
+            <div class="navbar-brand">
+                <a href="#">AbArquitetura</a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
     </header>
+    
     <h1 class="titulo">Carrosel <strong class="efeito">bizarro</strong></h1>
     <section class="container">
     <div class="slider-wrapper">
@@ -37,8 +56,17 @@
     </section>
 
     <footer>
-
+        <div class="footer-content">
+            <p>&copy; 2024 AbArquitetura. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <a href="#" id="topButton"><i class="fas fa-arrow-up"></i></a>
     </footer>
+    <script src="footer-and-navbar/script.js"></script>
 </body>
 
 </html>
