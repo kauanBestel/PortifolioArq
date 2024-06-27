@@ -1,6 +1,7 @@
 @import url("styles/carrousel.css");
 @import url("styles/navbar.css");
 @import url("styles/footer.css");
+@import url("reset.css");
 
 
 :root {
@@ -12,5 +13,6 @@
 }
 
 body {
-    background: var(--roxo-teste);
+    background: whitesmoke;
+    box-sizing: border-box;
 }
