@@ -16,7 +16,7 @@ window.addEventListener('scroll', function() {
 // mostra ou oculta botão de voltar para o começo da página
 window.addEventListener('scroll', function() {
     let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    if (scrollTop > 1250) { // quantidade em px de quando o botão de scrollar para cima é visto
+    if (scrollTop > 1170) { // quantidade em px de quando o botão de scrollar para cima é visto
         document.getElementById('topButton').style.display = 'block';
     } else {
         document.getElementById('topButton').style.display = 'none';

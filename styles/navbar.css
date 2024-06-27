@@ -9,8 +9,8 @@
     align-items: center;
     background-color: #14337B;
     padding: 22px;
-    position: fixed;
-    width: 100%;
+    /* position: fixed;
+    width: 100%; */
     top: 0;
     transition: top 0.3s;
     text-decoration: none;
