@@ -1,3 +1,7 @@
+main{
+    height: 100vh;
+}
+
 .titulo {
     font-size: 36px;
     font-family: var(--fonte-tt);
@@ -17,13 +21,13 @@
 }
 
 .container {
-    padding: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .slider-wrapper {
     position: relative;
     max-width: 48rem;
-    margin: 0 auto;
 }
 
 .slider {
@@ -53,15 +57,36 @@
     z-index: 1;
 }
 
-.slider-nav a {
-    width: .5rem;
-    height: .5rem;
+.slider-nav button {
+    width: 0.7rem; /* Ajuste a largura para garantir que o botão seja visível */
+    height: 0.7rem; /* Ajuste a altura para garantir que o botão seja visível */
     border-radius: 50%;
     background-color: #fff;
     opacity: 0.75;
+    border: none;
     transition: opacity ease 250ms;
+    cursor: pointer;
 }
 
-.slider-nav a:hover {
+.slider-nav button:hover {
     opacity: 1;
+}
+
+.carousel-container {
+    max-width: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.carousel img {
+    max-width: 100%;
+    user-select: none; /* Desabilita seleção de texto/imagem */
 }

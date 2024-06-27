@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Define três colunas iguais */
+    gap: 10px; /* Espaçamento entre os itens */
+    margin-top: 300px;
+    margin: 50px 250px 100px 250px;
+    font-family: var(--fonte-tx);
+    
+  }
+  
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Define três colunas iguais */
+    gap: 10px; /* Espaçamento entre os itens */
+    margin-top: 300px;
+    margin: 50px 250px 100px 250px;
+    font-family: var(--fonte-tx);
+  }
+
+  .item {
+    padding: 50px;
+    border: 1px solid #333;
+    font-size: 20px;
+  }
+  
+h1 {
+    font-size: 50px;
+    font-family: var(--fonte-tx);
+    font-weight: 500;
+}
+
+.texto{
+    font-size: 20px;
+    font-family: var(--fonte-tx);
+}
